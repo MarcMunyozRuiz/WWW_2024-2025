@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-areas: 'area area area area';
+  gap: 20px;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px;
+  text-align: center;
+}
+
+.item1 {
+  grid-area: area;
+  background-color: rgb(202, 200, 200);
+  height: 90px;
+  padding-top: 15px;
+}
+
+  .tarjeta {
+    background-color:rgb(202, 200, 200);
+    height: 320px;
+    
+  }
+
+  .img1 {
+    padding-top: 10px;
+    width: 200px;
+    height: 250px;
+  }
+
+ 

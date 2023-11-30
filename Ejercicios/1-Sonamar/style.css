@@ -1,0 +1,51 @@
+
+h1{
+    color: red; 
+    margin-left:500px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    font-size: 25px;}
+h2{
+    color: red; 
+    font-size: 15PX; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 500px;} 
+p{
+    margin-left: 500px; margin-right:500px ; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    #bruno{margin-left: 500px; margin-right:500px ;
+         background-color: rgb(222, 228, 228);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+    #qr{
+        margin-left: 496px;
+    }
+
+    #tareq{
+        font-size: 18px; 
+        margin-right: 550px;
+        text-align: right;
+    }
+
+    table th td{ 
+        font-size: 13PX; 
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       
+        }
+   
+    th{
+        color: red; 
+        }
+
+        #benja {
+            padding-left: 100px; 
+        
+        }
+  
+    
+    table{
+        padding-left:490px;
+        border-spacing: 0;
+        
+        
+        }   
