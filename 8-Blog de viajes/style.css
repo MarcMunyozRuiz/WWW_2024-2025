@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+
+    }
+
+.portada{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    height: 300px;
+    
+
+    }
+
+.navbar{
+    margin:0 ;
+    padding:0 ;
+    background-color: rgb(27, 214, 89);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(150, 12, 168);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 12px;
+    text-align: center;
+    font-weight: bolder;
+    }
+
+.navbar .activo:hover {
+
+    background-color: rgb(120, 243, 151);
+    
+    }
+
+.puerto{
+    height: 175px;
+    width: 225px;
+    padding-left: 50px;
+    float: left;
+    margin-right: 20px;
+    }
+
+.titulo{
+    color:rgb(150, 12, 168);
+    font-size: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    }
+
+.sitio{
+    font-size: 22px;
+    text-align: justify;
+    margin-left: 40px;
+    }
+
+.boton{
+    margin-left: 293px;
+    margin-top: 10px;
+    font-size: 30px;
+    border-radius: 5px;
+    background-color: rgb(27, 214, 89);
+    color: rgb(150, 12, 168);
+    }
+
+    .boton:hover{
+        background-color: rgb(120, 243, 151);
+        }
+
+.blog { 
+    grid-area: area-blog;
+    }
+
+.menu {
+    grid-area: area-menu;
+    margin-left:  150px;
+    }
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    ' area-blog area-blog area-blog area-menu';
+    }
+
+.posts{
+    text-align: center;
+    margin-right: 50px;
+    }
+
+.opcion{
+    text-decoration: none;
+    padding-bottom: 50px;
+    }
+
+li{
+    padding-top: 20px;
+    }
+
+.foot{
+    margin-top: 50px;
+    display: grid;
+    grid-template-areas: 'area-sono area-sono area-weam area-weam' 
+                         'area-down area-down area-down area-down';
+    background-color: rgb(27, 214, 89);
+    padding-top: 30px ;
+    color:rgb(150, 12, 168) ;
+}
+
+.sono{
+    grid-area: area-sono;
+    width: 400px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+}
+
+.weam{ 
+    grid-area: area-weam;
+    
+}
+
+.down{
+    grid-area: area-down;
+    text-align: center;
+    background-color:  rgb(25, 148, 66);
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.cosito{
+    text-align: right;
+    margin-right: 275px;
+    padding-bottom: 10px;
+}
+
+.lk{
+    display: grid;
+    grid-template-columns: 200px 150px 150px 150px;
+
+}
+
+/***************************************************************************************************************/
+/**************************************************Nosotros****************************************************/
+/***************************************************************************************************************/
+
+
+.nueq{
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.nosotros{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas: 'area area area area';
+    gap: 10px;
+    font-family: 'Oswald', sans-serif;
+    padding: 50px;
+    text-align: center;
+    
+    
+}
+
+.tarjeta {
+    background-color: rgb(27, 214, 89);
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+
+.people{
+    border-radius: 80px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+
+.ceo{
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px
+
+}
+
+.brian{
+    color:rgb(150, 12, 168) ;
+}
+
+
+/***************************************************************************************************************/
+/**************************************************Contactos****************************************************/
+/***************************************************************************************************************/
+
+
+.grid-container2{
+    display: grid;
+    grid-template-areas:
+    ' area-contact area-contact area-ayuda area-ayuda';
+    }
+
+
+.contact { 
+    margin-left: 100px;
+    grid-area: area-contact;
+    width: 300px;
+    display: grid;
+    margin-top: 90px;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 20px;
+    }
+    
+.ayuda {
+     grid-area: area-ayuda;
+     width: 700px;
+     background-color: fuchsia;
+     border-radius: 20px;
+     margin-top: 60px;
+     padding: 20px;
+
+     
+    }
+
+.formtext{
+    width: 650px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.formtext2{
+    width: 650px;
+    height: 180px;
+}
+
+.enviar{
+    background-color: cyan;
+    margin-left: 580px;
+    width: 75px;
+    height: 30px;
+}
