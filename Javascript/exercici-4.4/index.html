@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4.4-Calculadora</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    
+    <div class="gridcontainer">
+        <form class="form"><br>
+            <h1 class="titulo">CALCULADOR SIMPLE</h1>
+            <label class="dni" for="total">Primer Numero</label><br><br>
+            <input  id="numero1" type="text"><br>
+            <label class="dni" for="comensales">segundo Numero</label><br><br>
+            <input  id="numero2" type="text">
+        </form>
+        <button class="boton" onclick="suma(1)">+</button>
+        <button class="boton" onclick="suma(2)">-</button>
+        <button class="boton" onclick="suma(3)">x</button>
+        <button class="boton" onclick="suma(4)">/</button>
+        <h1 class="result" id="resultado"></h1>
+    </div>
+
+        <script src="JS/script.js"></script>
 </body>
 </html>

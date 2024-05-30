@@ -1,0 +1,66 @@
+body{
+    background-image:url("im");
+    
+}
+
+.titulo{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.gridcontainer{
+    background-color: rgb(235, 255, 136);
+    margin-left: 450px;
+    padding-left:px ;
+    margin-right: 450px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.dni{
+    font-size: 25px;
+    color: red;
+
+}
+
+.form{
+    padding-bottom: 20px;
+
+
+}
+
+.boton{
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: brown;
+    background-color: rgb(224, 213, 213);
+
+}
+
+input{
+text-align: center;
+width: 60px;
+height: 20px;
+background-color: rgb(228, 200, 200);
+color: red;
+}
+
+
+.nota{
+    padding-top: 20px;
+    color: chocolate;
+    font-size: 35px;
+
+
+}
+
+.result{
+
+    color: magenta;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

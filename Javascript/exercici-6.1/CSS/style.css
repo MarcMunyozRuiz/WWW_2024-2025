@@ -1,0 +1,26 @@
+.gridcontainer{
+    background-color: rgb(235, 255, 136);
+    margin-left: 450px;
+    padding-left:px ;
+    margin-right: 450px;
+    text-align: center;
+    padding-bottom: 50px;
+    border-radius: 20px;
+    opacity: 0.8;
+}
+
+.titol{
+    color: blueviolet;
+}
+
+.textito{
+
+    color: blue;
+    font-size: 30px;
+}
+
+.tablas{
+
+    color: rgb(0, 153, 13);
+    font-size: 25px;
+}
