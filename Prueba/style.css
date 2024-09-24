@@ -1,0 +1,35 @@
+.titulo{
+    font-size: 50px;
+    color: rgb(245, 166, 63);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.flex{
+    display: flex;
+    background-color:rgb(245, 166, 63) ;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.champ{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+.portrait{
+    width: 280px;
+    height: 350px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.name{
+    color: rgb(245, 166, 63);
+    font-size: 30px;
+    background-color: aliceblue;
+    border-radius: 6px;
+    margin-top: 10px;
+}
