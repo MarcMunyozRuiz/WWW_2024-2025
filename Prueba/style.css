@@ -1,22 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+main{
+    background-color: rgb(115, 155, 208);
+}
+
+footer{
+    background-color: rgb(115, 155, 208)
+
+}
+
+.intro{
+   text-align: center;
+   width: 700px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 30px;
+   padding-top: 20px;
+   color:rgb(2,2,121);
+
+}
+
 .titulo{
     font-size: 50px;
-    color: rgb(245, 166, 63);
+    color: rgb(2,2,121);
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .flex{
     display: flex;
-    background-color:rgb(245, 166, 63) ;
+    background-color: rgb(2,2,121);
     justify-content: space-around;
+    align-items: center ;
     border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .champ{
     margin-left: 10px;
     margin-right: 10px;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 .portrait{
@@ -27,9 +55,26 @@
 }
 
 .name{
-    color: rgb(245, 166, 63);
+    color:rgb(2,2,121);
     font-size: 30px;
     background-color: aliceblue;
     border-radius: 6px;
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.mastery{
+    display: none;
+    background-color: aliceblue;
+    color:rgb(2,2,121);
+    height: 350px;
+    border-radius: 10px;
+    width: 280px;
+    margin-top: 10px;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-around;
+
 }
