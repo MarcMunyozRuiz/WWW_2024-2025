@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  border-collapse: collapse;
 }
 
 .grid-container {
@@ -22,11 +23,24 @@
   padding-top: 15px;
 }
 
-  .tarjeta {
-    background-color:rgb(202, 200, 200);
-    height: 320px;
-    
-  }
+.tarjeta {
+  background-color: rgb(202, 200, 200);
+  height: 320px;
+
+}
+
+
+.img1 {
+  padding-top: 10px;
+  width: 200px;
+  height: 250px;
+  transition: transform 0.5s ease;
+}
+
+
+.title{
+  color: rgb(153, 0, 0);
+}
 
   .img1 {
     padding-top: 10px;
