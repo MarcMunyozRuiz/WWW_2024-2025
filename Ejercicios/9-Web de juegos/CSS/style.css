@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+header{
+    background-color: rgb(24, 24, 24);
+}
+
+.header-container{
+    display: flex;
+}
+.header-logo{
+    width: 500px;
+    height: 100px;
+}
+
+.search-bar{
+    width: 500px;
+}
+
+
+.navbar{
+    background-color: #163ff1;
+    padding: 20px;
+    text-align: center;
+
+}
+
+    .navbar li{
+        display: inline;
+        border-right: 1px solid white;
+    }
+
+    .navbar li:last-child{
+        border-right: none;
+    }
+
+    .navbar a{
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
