@@ -1,17 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     border-collapse: collapse;
-
     }
 
 .portada{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 900px;
-    height: 300px;
-    
+    width: 500px;
+    height: 150px;
 
     }
 
@@ -29,7 +30,7 @@
     text-decoration: none;
     font-size: 25px;
     color: rgb(150, 12, 168);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: "Patrick Hand", serif;
     padding: 12px;
     text-align: center;
     font-weight: bolder;
@@ -41,7 +42,7 @@
     
     }
 
-.puerto{
+.img1{
     height: 175px;
     width: 225px;
     padding-left: 50px;
@@ -55,21 +56,27 @@
     padding-top: 40px;
     padding-bottom: 20px;
     padding-left: 50px;
+    font-family: "Atma", serif;
     }
 
-.sitio{
+.text-description{
     font-size: 22px;
     text-align: justify;
     margin-left: 40px;
+    font-family: "Patrick Hand", serif;
+    margin-bottom: 20px;
     }
 
 .boton{
+    padding: 5px 16px;
     margin-left: 293px;
-    margin-top: 10px;
-    font-size: 30px;
+    font-size: 25px;
     border-radius: 5px;
     background-color: rgb(27, 214, 89);
     color: rgb(150, 12, 168);
+    border: 2px solid rgb(150, 12, 168);
+    font-family: "Patrick Hand", serif;
+    text-decoration: none;
     }
 
     .boton:hover{
@@ -81,8 +88,11 @@
     }
 
 .menu {
+    margin-top: 50px;
     grid-area: area-menu;
     margin-left:  150px;
+    color:  rgb(25, 148, 66);
+    
     }
 
 .grid-container{
@@ -94,40 +104,46 @@
 .posts{
     text-align: center;
     margin-right: 50px;
+    font-family: "Atma", serif;
+    
+    
     }
 
 .opcion{
     text-decoration: none;
     padding-bottom: 50px;
+    color: rgb(150, 12, 168);
+    font-family: "Patrick Hand", serif;
     }
 
 li{
     padding-top: 20px;
     }
 
-.foot{
+.footer{
     margin-top: 50px;
     display: grid;
-    grid-template-areas: 'area-sono area-sono area-weam area-weam' 
+    grid-template-areas: 'area-left area-left area-right area-right' 
                          'area-down area-down area-down area-down';
     background-color: rgb(27, 214, 89);
     padding-top: 30px ;
     color:rgb(150, 12, 168) ;
+    font-family: "Patrick Hand", serif;
 }
 
-.sono{
-    grid-area: area-sono;
-    width: 400px;
-    margin-left: 150px;
+.footer-left{
+    grid-area: area-left;
+    width: 450px;
+    margin-left: 100px;
     margin-bottom: 30px;
 }
 
-.weam{ 
-    grid-area: area-weam;
+.footer-right{ 
+    grid-area: area-right;
     
 }
 
-.down{
+.footer-down{
     grid-area: area-down;
     text-align: center;
     background-color:  rgb(25, 148, 66);
@@ -136,13 +152,17 @@ li{
     padding-bottom: 20px;
 }
 
-.cosito{
+.footer-title{
     text-align: right;
     margin-right: 275px;
     padding-bottom: 10px;
+    font-family: "Atma", serif;
 }
 
-.lk{
+.footer-title2{
+    font-family: "Atma", serif;
+}
+.footer-text{
     display: grid;
     grid-template-columns: 200px 150px 150px 150px;
 
@@ -153,13 +173,17 @@ li{
 /***************************************************************************************************************/
 
 
-.nueq{
+.titulo2{
+    color:rgb(150, 12, 168);
+    font-size: 50px;
+    padding-top: 40px;
+    padding-left: 50px;
+    font-family: "Atma", serif;
     text-align: center;
-    margin-top: 50px;
 
 }
 
-.nosotros{
+.nosotros-grid{
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-areas: 'area area area area';
@@ -176,10 +200,13 @@ li{
     height: 350px;
     width: 300px;
     border-radius: 5px;
+    background-image: url(img/abstract-3343966_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100px;
 }
 
 
-.people{
+.people-img{
     border-radius: 80px;
     margin-top: 20px;
     margin-bottom: 8px;
@@ -187,17 +214,40 @@ li{
     height: 150px;
 }
 
-
-.ceo{
-    color: white;
-    margin-top: 8px;
-    margin-bottom: 8px
-
-}
-
-.brian{
+.people-text{
     color:rgb(150, 12, 168) ;
+    font-family: "Atma", serif;
+    text-shadow: 1px 1px 2px black;
 }
+
+.icon_text{
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.icon_text2{
+    width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+
+.icono{
+    float: left;
+}
+
+.occupation-text{
+    color: white;
+    margin-bottom: 8px;
+    font-family: "Patrick Hand", serif;
+    text-shadow: 3px 1px 2px rgb(150, 12, 168) ;
+
+}
+
+
 
 
 /***************************************************************************************************************/
@@ -213,25 +263,67 @@ li{
 
 
 .contact { 
+    color:  rgb(52, 173, 93);
     margin-left: 100px;
     grid-area: area-contact;
     width: 300px;
     display: grid;
     margin-top: 90px;
-    background-color: yellow;
+    background-color: rgb(150, 12, 168) ;
     border-radius: 20px;
     padding: 20px;
+
     }
     
-.ayuda {
+    .contact h1{
+        font-family: "Atma", serif;
+        font-size: 30px;
+    }   
+
+    .contact p{
+        font-family: "Patrick Hand", serif;
+        font-size: 18px;
+    }
+
+.icon-flex{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.icon-flex img{
+    margin: 4px;
+
+
+}
+
+.grid-ayuda {
      grid-area: area-ayuda;
      width: 700px;
-     background-color: fuchsia;
+     background-color: rgb(150, 12, 168) ;
      border-radius: 20px;
      margin-top: 60px;
      padding: 20px;
+     color:  rgb(52, 173, 93);
+    }
 
-     
+    .grid-ayuda h1{
+        font-family: "Atma", serif;
+        font-size: 30px;
+    }
+    
+    .grid-ayuda label{
+        font-family: "Patrick Hand", serif;
+        font-size: 18px;
+    }
+
+    .grid-ayuda input{
+        font-family: "Patrick Hand", serif;
+        font-size: 15px;
+    }
+
+    .grid-ayuda select{
+        font-family: "Patrick Hand", serif;
+        font-size: 15px;
     }
 
 .formtext{
@@ -241,13 +333,20 @@ li{
 }
 
 .formtext2{
+    resize: none;
     width: 650px;
-    height: 180px;
+    height: 200px;
+    margin-top: 10px;
+    font-family: "Patrick Hand", serif;
 }
 
 .enviar{
-    background-color: cyan;
+    background-color: rgb(27, 214, 89);
+    color: rgb(150, 12, 168) ;
     margin-left: 580px;
     width: 75px;
     height: 30px;
+    border-radius: 10px;
+    font-family: "patrick Hand", serif;
+    font-size: 20px;
 }
