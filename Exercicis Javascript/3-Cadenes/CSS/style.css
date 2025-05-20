@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 40px;
+    text-align: center;
+    padding: 50px;
+    border: 15px solid black;
+}
+
+
+    .grid-container h1{
+        font-size: 50px;
+        font-family: 'Courier New', Courier, monospace;
+        padding-bottom: 30px;
+        padding-top: 20px;
+
+    }
+
+    .grid-container input{
+        width: 400px;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid black;
+    }
+
+.form-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 110px;
+    
+}
+
+.up-left{
+    background-color: red;
+    height: 300px;
+    width: auto;
+}
+
+.up-left .boton{
+    margin-top: 24px
+}
+
+.up-right{
+    background-color: rgb(0, 202, 0);
+    height: 300px;
+}
+
+    .up-right input{
+        margin-top: 10px;
+        
+    }
+
+.up-right .boton{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.down-left{
+    background-color: yellow;
+    height: 300px;
+}
+
+    .down-left .boton{
+        margin-top: 25px;
+    }
+
+    .down-left-grid{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-left: 110px;
+    }
+
+.bottom-inputs{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 14px;
+}    
+
+    .bottom-inputs input{
+        margin-left: 15px;
+        width: 178px;
+        
+    }
+    
+
+.down-right{
+    background-color: orange;
+    height: 300px;
+}
+
+.down-right-grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 110px;
+}
+
+.down-right-grid .boton{
+    margin-top: 25px;
+
+}
+
+.boton{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;  
+}
+  
+.boton:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+
