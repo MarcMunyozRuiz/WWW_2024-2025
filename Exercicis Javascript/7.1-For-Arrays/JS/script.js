@@ -1,0 +1,3 @@
+let palabra = [];
+function contar(){
+    
