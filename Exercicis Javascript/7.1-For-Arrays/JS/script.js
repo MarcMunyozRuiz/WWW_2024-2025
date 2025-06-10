@@ -1,3 +1,6 @@
-let palabra = [];
 function contar(){
+    let cad = document.getElementById("cadena").value;
+
+
+}
     
